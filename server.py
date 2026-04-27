@@ -4,7 +4,7 @@ import threading
 import socket
 import time
 
-server_ip="192.168.152.144"
+server_ip="ip"
 server_port=7777
 threads=[]
 ips=[]
