@@ -50,7 +50,6 @@ def server_st():
         if len(threads)>=20:
             connection.close()
         print(f"Established a connection from {address}")
-        threads_in=len(threads)
         th=threading.Thread(target=handle_connection,args=(connection,address,threads_in),daemon=True)
         threads.append(th)
         th.start()
