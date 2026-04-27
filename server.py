@@ -49,7 +49,6 @@ def server_st():
         connection,address=server_socket.accept()
         if len(threads)>=20:
             connection.close()
-            continue
         print(f"Established a connection from {address}")
         threads_in=len(threads)
         th=threading.Thread(target=handle_connection,args=(connection,address,threads_in),daemon=True)
