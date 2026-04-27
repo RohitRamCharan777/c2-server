@@ -4,7 +4,7 @@ import threading
 import socket
 import subprocess
 
-server_ip="192.168.152.144"
+server_ip="ip"
 server_port=7777
 client_socket=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((server_ip,server_port))
