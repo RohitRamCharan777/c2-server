@@ -1,5 +1,5 @@
 #To run the exploit make sure you installed the requirments from the requirements
-#------------------------------------------------------------GiThUb RohitRamCharan777-----------------------------------------------------------------------
+#------------------------------------------------------------GiThUb RohitRamCharan777----------------------------------------------------------------------
 import threading
 import socket
 import time
